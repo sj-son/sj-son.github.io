@@ -24,7 +24,7 @@ layout: main
       </header>
       {{content | markdownify}}
       <div class="page-footer">
-        <div class="page-share">
+        <!-- <div class="page-share">
           <a
             href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}"
             title="Share on Twitter"
@@ -46,7 +46,7 @@ layout: main
             target="_blank"
             >Google+</a
           >
-        </div>
+        </div> -->
         <div class="page-tag">
           {% for tag in page.tags %}
           <a href="{{site.baseurl}}/tags#{{tag}}" class="tag"
